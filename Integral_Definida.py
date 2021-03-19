@@ -9,10 +9,13 @@ import sympy as sy
 
 x = Symbol('x')
 
-i = input('Ingrese el limite inferior: ')
+i = input('Ingrese el limite inferior aqui: ')
+
+
 s = input('Ingrese el limite superior: ')
 
 y1 = input("Ingrese la ecuacion: ")
+
 y1 = sympify(y1)
 pprint(y1)
 
